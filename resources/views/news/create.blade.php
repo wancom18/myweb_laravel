@@ -44,7 +44,7 @@
         <div class="row">
             <div class="col-lg-12 margin-tb">
                 <div class="pull-left mb-2">
-                    <h2>Add Company</h2>
+                    <h2>เพิ่มข่าว</h2>
                 </div>
                 <div class="pull-right">
                     <a class="btn btn-primary" href="{{ route('news.index') }}"> Back</a>
@@ -61,7 +61,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="form-group">
-                        <strong>Company Name:</strong>
+                        <strong>หัวข้อข่าว:</strong>
                         <input type="text" name="name" class="form-control" placeholder="Company Name">
                         @error('name')
                         <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="form-group">
-                        <strong>Company Email:</strong>
+                        <strong>รายละเอียดข่าว:</strong>
                         <input type="text" name="content" class="form-control" placeholder="Company Email">
                         <textarea class="ckeditor form-control" name="wysiwyg-editor"></textarea>
                         @error('content')
