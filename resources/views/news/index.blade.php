@@ -49,7 +49,7 @@
                     <h2>Laravel 9 CRUD Example Tutorial</h2>
                 </div>
                 <div class="pull-right mb-2">
-                    <a class="btn btn-success" href="{{ route('news.create') }}"> Create Company</a>
+                    <a class="btn btn-success" href="{{ route('news.create') }}"> เพิ่มข่าว</a>
                 </div>
             </div>
         </div>
@@ -62,8 +62,8 @@
             <thead>
                 <tr>
                     <th>S.No</th>
-                    <th>Company Name</th>
-                    <th>Company Email</th>
+                    <th>หัวข้อข่าว</th>
+                    <th>อีเมล</th>
                     <th>Company Address</th>
                     <th width="280px">Action</th>
                 </tr>
